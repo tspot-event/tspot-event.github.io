@@ -1,0 +1,104 @@
+html{
+	background: #F2F2F2;
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #000;
+	letter-spacing: .2rem;
+}
+h1.uk-heading-large, h2.uk-heading-medium{
+	font-family: 'Montserrat';
+	color: #303063;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+h5.important{
+	font-family: 'Lora';
+	font-size: 1.26rem;
+	color: #303063;
+	text-transform: uppercase;
+}
+h6{
+	font-family: 'Montserrat';
+	font-size: .8rem;
+	font-style: italic;
+	color: #999;
+	text-transform: uppercase;
+}
+.wrapper{
+	position: relative;
+	margin: 50px 100px 50px 100px;
+    border: 1px solid black;
+}
+.uk-button-primary{
+	background: #303063;
+	transition: background-color ease-in-out .15s;
+}
+.uk-button-primary:hover{
+	background-color: #000;
+}
+.uk-link{
+	color: #999;
+	transition: color ease-in-out .15s;
+}
+.uk-link:hover{
+	color: #303063;
+}
+.uk-navbar-nav{
+	gap: 50px;
+}
+.uk-offcanvas-bar .uk-nav-default>li>a{
+	color: #F2F2F2;
+}
+.direction{
+	border: 8px solid black;
+}
+.intro{
+	position: absolute;
+    top: -22px;
+    left: 30px;
+    padding: 10px;
+    background: #F2F2F2;
+    font-size: 1.2rem;
+}
+.foot{
+	position: absolute;
+    bottom: -19px;
+    left: 50%;
+  	transform: translateX(-50%);
+    padding: 10px;
+    color: #999;
+    background: #F2F2F2;
+    font-size: .75rem;
+}
+
+@media screen and (max-width: 959px){
+	.wrapper{
+		margin: 50px;
+	}
+	.direction{
+		width: 200px;
+	}
+	.intro{
+		left: 20px;
+	}
+}
+
+@media screen and (max-width: 639px){
+	html{
+		font-size: .8rem;
+	}
+	.wrapper{
+		margin: 15px 15px 30px 15px;
+	}
+	.nav-section{
+		padding-top: 25px;
+	}
+	.direction{
+		width: 175px;
+	}
+	.intro{
+		left: 5px;
+	}
+}
